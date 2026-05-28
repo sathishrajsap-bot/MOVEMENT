@@ -1,0 +1,5 @@
+@EndUserText.label: 'EINVOICE COCKPIT'
+define service ZEINV_COCKPIT {
+  expose ZC_EINV_COCKPIT;
+  expose ZC_GEN_EWAY     as EInvData;
+}

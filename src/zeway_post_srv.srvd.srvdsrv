@@ -1,0 +1,4 @@
+@EndUserText.label: 'Eway post'
+define service ZEWAY_POST_SRV {
+  expose ZC_EWAY_POST as PostEway;
+}

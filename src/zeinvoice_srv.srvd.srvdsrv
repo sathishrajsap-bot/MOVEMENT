@@ -1,0 +1,6 @@
+@EndUserText.label: 'EINVOICE'
+@AbapCatalog.extensibility.extensible: true
+define service ZEINVOICE_SRV {
+  expose ZC_BILLING_HEADER as EInvoiceHeader;
+  expose ZC_BILLIG_ITEM    as EinvoiceItem;
+}

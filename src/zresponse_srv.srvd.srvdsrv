@@ -1,0 +1,5 @@
+@EndUserText.label: 'Response'
+@AbapCatalog.extensibility.extensible: true
+define service ZRESPONSE_SRV {
+  expose ZC_RESPONSE as Create;
+}

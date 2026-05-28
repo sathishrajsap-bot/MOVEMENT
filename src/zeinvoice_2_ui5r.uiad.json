@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "E Invoice"
+  },
+  "ui5AppDetails": {
+    "appId": "einvoice"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_5B580B5F63E5FCB4B244093C1D1B131BEF83788C_TM",
+    "semanticObject": "ZEINVOICE",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_5B580B5F63E5FCB4B244093C1D1B131BEF83788C_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "E Invoice",
+        "subtitle": "Form"
+      }
+    }
+  ]
+}

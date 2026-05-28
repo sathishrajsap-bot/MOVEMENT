@@ -1,0 +1,28 @@
+unmanaged implementation in class zbp_i_response unique;
+//strict ( 2 );
+
+define behavior for ZI_RESPONSE //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) Docno, message;
+  mapping for zdb_einvoice
+    {
+      Message     = message;
+      documentno  = documentno;
+      docno       = docno;
+      irn         = irn;
+      ewbno       = ewbno;
+      ewbdt       = ewbdt;
+      ackno       = ackno;
+      ackdate     = ackdate;
+      createdby   = createdby;
+      createddt   = createddt;
+      createdtime = createdtime;
+    }
+}
